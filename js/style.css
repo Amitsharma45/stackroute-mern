@@ -1,0 +1,27 @@
+form{
+    text-align: center;
+}
+label{ 
+    margin-left: 5px;
+}
+table{
+    /* margin-top: 20px; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* align-items: center; */
+}
+table{
+    border-collapse: collapse
+}
+th,td{
+    width: 150px;
+    padding: 5px;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
